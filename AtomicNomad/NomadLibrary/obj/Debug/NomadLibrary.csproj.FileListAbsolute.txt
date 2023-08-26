@@ -1,0 +1,5 @@
+E:\C#\AtomicNomad\AtomicNomad\NomadLibrary\bin\Debug\NomadLibrary.dll
+E:\C#\AtomicNomad\AtomicNomad\NomadLibrary\bin\Debug\NomadLibrary.pdb
+E:\C#\AtomicNomad\AtomicNomad\NomadLibrary\obj\Debug\NomadLibrary.csproj.CoreCompileInputs.cache
+E:\C#\AtomicNomad\AtomicNomad\NomadLibrary\obj\Debug\NomadLibrary.dll
+E:\C#\AtomicNomad\AtomicNomad\NomadLibrary\obj\Debug\NomadLibrary.pdb

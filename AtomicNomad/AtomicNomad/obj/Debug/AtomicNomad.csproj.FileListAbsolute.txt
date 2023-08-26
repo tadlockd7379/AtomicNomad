@@ -1,0 +1,10 @@
+E:\C#\AtomicNomad\AtomicNomad\AtomicNomad\bin\Debug\AtomicNomad.exe.config
+E:\C#\AtomicNomad\AtomicNomad\AtomicNomad\bin\Debug\AtomicNomad.exe
+E:\C#\AtomicNomad\AtomicNomad\AtomicNomad\bin\Debug\AtomicNomad.pdb
+E:\C#\AtomicNomad\AtomicNomad\AtomicNomad\obj\Debug\AtomicNomad.csproj.AssemblyReference.cache
+E:\C#\AtomicNomad\AtomicNomad\AtomicNomad\obj\Debug\AtomicNomad.csproj.CoreCompileInputs.cache
+E:\C#\AtomicNomad\AtomicNomad\AtomicNomad\obj\Debug\AtomicNomad.exe
+E:\C#\AtomicNomad\AtomicNomad\AtomicNomad\obj\Debug\AtomicNomad.pdb
+E:\C#\AtomicNomad\AtomicNomad\AtomicNomad\bin\Debug\NomadLibrary.dll
+E:\C#\AtomicNomad\AtomicNomad\AtomicNomad\bin\Debug\NomadLibrary.pdb
+E:\C#\AtomicNomad\AtomicNomad\AtomicNomad\obj\Debug\AtomicNomad.csproj.CopyComplete
