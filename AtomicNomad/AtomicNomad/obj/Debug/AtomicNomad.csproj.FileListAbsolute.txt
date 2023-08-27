@@ -8,3 +8,7 @@ E:\C#\AtomicNomad\AtomicNomad\AtomicNomad\obj\Debug\AtomicNomad.pdb
 E:\C#\AtomicNomad\AtomicNomad\AtomicNomad\bin\Debug\NomadLibrary.dll
 E:\C#\AtomicNomad\AtomicNomad\AtomicNomad\bin\Debug\NomadLibrary.pdb
 E:\C#\AtomicNomad\AtomicNomad\AtomicNomad\obj\Debug\AtomicNomad.csproj.CopyComplete
+E:\C#\AtomicNomad\AtomicNomad\AtomicNomad\bin\Debug\Newtonsoft.Json.dll
+E:\C#\AtomicNomad\AtomicNomad\AtomicNomad\bin\Debug\Newtonsoft.Json.xml
+E:\C#\AtomicNomad\AtomicNomad\AtomicNomad\bin\Debug\data\melee-weapons.json
+E:\C#\AtomicNomad\AtomicNomad\AtomicNomad\bin\Debug\data\ranged-weapons.json

@@ -1,0 +1,17 @@
+﻿{
+  "bow": {
+    "description": "Simple Bow",
+    "damage": [ 1, 5 ],
+    "projectile": "arrow"
+  },
+  "crossbow": {
+    "description": "Stronger Bow",
+    "damage": [ 3, 9 ],
+    "projectile": "arrow"
+  },
+  "pistol": {
+    "description": "Extremely rare and powerful firearm",
+    "damage": [ 10, 25 ],
+    "projectile": "bullet"
+  }
+}

@@ -1,14 +1,12 @@
 ﻿/**
 * 8/25/2023
 * CSC 253
-* Group **
+* Group 1
 * Group Members: David Jones, Daniel Parks, Drew Tadlock
 * Mud Game for CSC 253. DUNGON CRAWLER MEETS ATOMIC DISASTER
 */
 
-
-using System;
-using NomadLibrary;
+using AtomicNomad.game;
 
 namespace AtomicNomad
 {
@@ -16,8 +14,7 @@ namespace AtomicNomad
     {
         static void Main(string[] args)
         {
-            Console.WriteLine(Utilities.HelloWorld());
-            Console.Read();
+            new Game();
         }
     }
 }

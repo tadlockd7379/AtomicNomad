@@ -1,0 +1,10 @@
+﻿{
+  "sword": {
+    "description": "Simple Melee Weapon",
+    "damage": [ 1, 5 ]
+  },
+  "legendary sword": {
+    "description": "Extremely Powerful Melee Weapon",
+    "damage": [ 7, 18 ]
+  }
+}
