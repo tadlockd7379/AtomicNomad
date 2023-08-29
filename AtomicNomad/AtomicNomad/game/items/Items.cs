@@ -12,8 +12,6 @@ namespace AtomicNomad.game.items
 
         public Dictionary<string, Item> Miscellaneous = new Dictionary<string, Item>();
 
-        public Dictionary<string, string> ItemInputs = new Dictionary<string, string>();
-
         public Items()
         {
             // Weapons
