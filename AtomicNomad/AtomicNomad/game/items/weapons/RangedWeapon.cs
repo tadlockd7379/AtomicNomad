@@ -1,39 +1,25 @@
-﻿using Newtonsoft.Json.Linq;
-using System;
-using System.Linq;
+﻿using System;
 
 namespace AtomicNomad.game.items.weapons
 {
     class RangedWeapon : Weapon
     {
-        string projectile; // will eventually take an Item class for the projectile to fire
+        public readonly string ProjectileID;
 
-        public RangedWeapon(string id, string description, int minDamage, int maxDamage, string projectile) : base(id, description)
+        public RangedWeapon(string id, string description, int[] damage, string projectile) : base(id, description)
         {
-            this.minDamage = minDamage;
-            this.maxDamage = maxDamage;
-            this.projectile = projectile;
+            Damage = damage;
+            ProjectileID = projectile;
         }
 
         public override void Attack()
         {
-            // check if player has the required material
-            // remove the material if they have it, otherwise tell them they don't and let them try to attack again with something else
+            Item projectile = Game.Items.Miscellaneous[ProjectileID];
+            // make sure the player has it
 
-            int damage = Game.rng.randomIntBetween(minDamage, maxDamage);
+            int damage = Game.RNG.RandomIntBetween(Damage[0], Damage[1]);
 
-            Console.WriteLine($"You shot dummy with {id} using {projectile} and did {damage} damage!");
-        }
-
-        public static RangedWeapon FromData(string id, JToken data)
-        {
-            string description = data.SelectToken("description").ToString();
-            JToken damage = data.SelectToken("damage");
-            int minDamage = int.Parse(damage.First().ToString());
-            int maxDamage = int.Parse(damage.Last().ToString());
-            string projectile = data.SelectToken("projectile").ToString();
-
-            return new RangedWeapon(id, description, minDamage, maxDamage, projectile);
+            Console.WriteLine($"You shot dummy with {ID} using {projectile.ID} and did {damage} damage!");
         }
     }
 }

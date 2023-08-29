@@ -7,7 +7,7 @@ namespace AtomicNomad.game
     {
         public Random random = new Random();
 
-        public int randomIntBetween(int int1, int int2)
+        public int RandomIntBetween(int int1, int int2)
         {
             return random.Next(int1, int2);
         }

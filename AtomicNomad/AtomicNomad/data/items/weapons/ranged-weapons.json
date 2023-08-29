@@ -1,0 +1,17 @@
+﻿{
+  "bow": {
+    "description": "simple bow. it requires an arrow to work",
+    "damage": [ 1, 5 ],
+    "projectile": "arrow"
+  },
+  "crossbow": {
+    "description": "stronger bow. it requires an arrow to work",
+    "damage": [ 3, 9 ],
+    "projectile": "arrow"
+  },
+  "pistol": {
+    "description": "extremely rare and powerful firearm. it requires a bullet to work",
+    "damage": [ 10, 25 ],
+    "projectile": "bullet"
+  }
+}

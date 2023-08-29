@@ -1,0 +1,10 @@
+{
+  "healing potion": {
+    "description": "heals for 10 hp",
+    "healingAmount": 10
+  },
+  "greater healing potion": {
+    "description": "heals for 50 hp",
+    "healingAmount": 50
+  }
+}

@@ -4,57 +4,68 @@
 
 using System;
 using System.Collections.Generic;
+using System.Linq;
 using AtomicNomad.game.items;
-using AtomicNomad.game.items.weapons;
-using NomadLibrary;
 
 namespace AtomicNomad.game
 {
     class Game
     {
-        public static RNG rng = new RNG();
-
-        public Dictionary<string, dynamic> weapons = new Dictionary<string, dynamic>();
+        public static RNG RNG = new RNG();
+        public static Items Items = new Items();
+        public static Dictionary<string, string> Keywords = new Dictionary<string, string>();
 
         public Game()
         {
-            Console.WriteLine("Welcome to AtomicNomad!");
+            Console.WriteLine("Welcome to AtomicNomad!\n");
 
-            RegisterData();
+            RegisterKeywords();
 
-            Weapon sword = weapons["sword"];
-            sword.Attack();
+            Items.Weapons["sword"].Attack();
+            Items.Weapons["bow"].Attack();
+            Items.Potions["healing potion"].Use();
 
-            foreach (var weapon in weapons)
-            {
-                Weapon weaponParsed = weapon.Value;
-                weaponParsed.Attack();
-            }
-
+            Console.WriteLine("\ntemporary user input system... try 'items'");
 
             Input();
         }
 
         void Input()
         {
-            Console.ReadLine().ToLower();
+            Console.WriteLine("");
+            string input = Console.ReadLine().ToLower();
+            Console.WriteLine("");
+
+            Keywords.TryGetValue(input, out string value);
+            if (value != null)
+            {
+                Console.WriteLine(value);
+            } else
+            {
+                Console.WriteLine($"Unknown input '{input}' Try 'items'.");
+            }
+
             Input();
         }
 
-        void RegisterData()
+        void RegisterKeywords()
         {
-            RegisterData<MeleeWeapon>("melee-weapons", weapons);
-            RegisterData<RangedWeapon>("ranged-weapons", weapons);
-        }
+            Keywords.Add("items",
+                $"There are currently {Items.Miscellaneous.Count + Items.Potions.Count + Items.Weapons.Count} total items.\n" +
+                $"{Items.Weapons.Count} weapons, {Items.Potions.Count} potions, and {Items.Miscellaneous.Count} miscalaneous items.\n" +
+                "Try 'weapons', 'potions', or 'misc'."
+            );
 
-        // I'm using reflection that way we don't have to repeat the same code over and over again when we register data
-        void RegisterData<T>(string file, Dictionary<string, dynamic> dictionary)
-        {
-            var method = typeof(T).GetMethod("FromData");
-            foreach (var data in JsonUtilities.FromFile(file))
-            {
-                dictionary.Add(data.Key, (T) method.Invoke(null, new object[] { data.Key, data.Value }));
-            }
+            Keywords.Add("weapons", string.Join(", ", Items.Weapons.Keys));
+            foreach (var data in Items.Weapons) Keywords.Add(data.Key, $"{data.Value.ID}, {data.Value.Description}. does {data.Value.Damage[0]} - {data.Value.Damage[1]} damage.");
+
+            Keywords.Add("potions", string.Join(", ", Items.Potions.Keys));
+            foreach (var data in Items.Potions) Keywords.Add(data.Key, $"{data.Value.ID} {data.Value.Description}");
+
+            Keywords.Add("misc", string.Join(", ", Items.Miscellaneous.Keys));
+            foreach (var data in Items.Miscellaneous) Keywords.Add(data.Key, $"{data.Value.ID} is the {data.Value.Description}");
+
+            Console.WriteLine($"Registered {Keywords.Count} total keywords.\n");
         }
     }
 }

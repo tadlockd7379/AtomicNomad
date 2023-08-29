@@ -48,6 +48,9 @@
   <ItemGroup>
     <Compile Include="game\Game.cs" />
     <Compile Include="game\items\Item.cs" />
+    <Compile Include="game\items\Items.cs" />
+    <Compile Include="game\items\potions\HealingPotion.cs" />
+    <Compile Include="game\items\potions\Potion.cs" />
     <Compile Include="game\items\weapons\Weapon.cs" />
     <Compile Include="game\items\weapons\RangedWeapon.cs" />
     <Compile Include="Program.cs" />
@@ -57,10 +60,16 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-    <None Include="data\melee-weapons.json">
+    <None Include="data\items\miscellaneous.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Include="data\ranged-weapons.json">
+    <None Include="data\items\potions\healing-potions.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="data\items\weapons\melee-weapons.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="data\items\weapons\ranged-weapons.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
     <None Include="packages.config" />
