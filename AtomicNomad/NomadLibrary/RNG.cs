@@ -1,9 +1,8 @@
 ﻿using System;
 
-namespace AtomicNomad.game
+namespace NomadLibrary
 {
-    // Can't be put in class library since Random isn't random unless there's just one instance of it and it can't be static.
-    class RNG
+    public class RNG
     {
         public Random random = new Random();
 

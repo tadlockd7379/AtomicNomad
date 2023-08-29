@@ -1,8 +1,8 @@
 ﻿{
   "arrow": {
-    "description": "Item used to shoot bows and crossbows"
+    "description": "item used to shoot bows and crossbows"
   },
   "bullet": {
-    "description": "Item used to shoot guns"
+    "description": "item used to shoot guns"
   }
 }
