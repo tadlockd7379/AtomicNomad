@@ -47,7 +47,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="game\Game.cs" />
-    <Compile Include="game\items\Item.cs" />
+    <Compile Include="game\GameObject.cs" />
     <Compile Include="game\items\Items.cs" />
     <Compile Include="game\items\potions\HealingPotion.cs" />
     <Compile Include="game\items\potions\Potion.cs" />

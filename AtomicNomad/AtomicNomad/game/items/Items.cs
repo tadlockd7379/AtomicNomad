@@ -7,22 +7,39 @@ namespace AtomicNomad.game.items
 {
     class Items
     {
+        public Dictionary<string, dynamic> AllItems = new Dictionary<string, dynamic>();
+
         public Dictionary<string, Weapon> Weapons = new Dictionary<string, Weapon>();
         public Dictionary<string, Potion> Potions = new Dictionary<string, Potion>();
-
-        public Dictionary<string, Item> Miscellaneous = new Dictionary<string, Item>();
+        public Dictionary<string, GameObject> Miscellaneous = new Dictionary<string, GameObject>();
 
         public Items()
         {
             // Weapons
-            foreach (var data in JsonUtilities.DictionaryFromFile<MeleeWeapon>("items/weapons/melee-weapons")) Weapons.Add(data.Key, data.Value);
-            foreach (var data in JsonUtilities.DictionaryFromFile<RangedWeapon>("items/weapons/ranged-weapons")) Weapons.Add(data.Key, data.Value);
+            LoadItems<MeleeWeapon>("items/weapons/melee-weapons", Weapons);
+            LoadItems<RangedWeapon>("items/weapons/ranged-weapons", Weapons);
 
             // Potions
-            foreach (var data in JsonUtilities.DictionaryFromFile<HealingPotion>("items/potions/healing-potions")) Potions.Add(data.Key, data.Value);
+            LoadItems<HealingPotion>("items/potions/healing-potions", Potions);
 
             // Misc Items
-            foreach (var data in JsonUtilities.DictionaryFromFile<Item>("items/miscellaneous")) Miscellaneous.Add(data.Key, data.Value);
+            LoadItems<GameObject>("items/miscellaneous", Miscellaneous);
+        }
+
+        public void LoadItems<T>(string file, dynamic dictionary)
+        {
+            foreach (var data in JsonUtilities.DictionaryFromFile<T>(file))
+            {
+                AllItems.Add(data.Key, data.Value);
+                dictionary.Add(data.Key, data.Value);
+            }
+        }
+
+        public GameObject this[string id] => Index(id);
+
+        private GameObject Index(string id)
+        {
+            return AllItems[id];
         }
     }
 }

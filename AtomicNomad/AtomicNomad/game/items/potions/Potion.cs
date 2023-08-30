@@ -1,6 +1,6 @@
 ﻿namespace AtomicNomad.game.items.potions
 {
-    abstract class Potion : Item
+    abstract class Potion : GameObject
     {
         public Potion(string id, string description) : base(id, description) { }
 

@@ -1,11 +1,11 @@
 ﻿namespace AtomicNomad.game.items
 {
-    public class Item
+    public class GameObject
     {
         public readonly string ID;
         public readonly string Description;
 
-        public Item(string id, string description)
+        public GameObject(string id, string description)
         {
             ID = id;
             Description = description;

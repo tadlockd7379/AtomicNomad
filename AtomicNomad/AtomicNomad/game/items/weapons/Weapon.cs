@@ -1,6 +1,6 @@
 ﻿namespace AtomicNomad.game.items.weapons
 {
-    abstract class Weapon : Item
+    abstract class Weapon : GameObject
     {
         public int[] Damage;
 

@@ -22,8 +22,7 @@ namespace AtomicNomad.game
             RegisterKeywords();
 
             Items.Weapons["sword"].Attack();
-            Items.Weapons["bow"].Attack();
-            Items.Potions["healing potion"].Use();
+            Console.WriteLine(Items["arrow"].Description);
 
             Console.WriteLine("\ntemporary user input system... try 'items'");
 
@@ -35,7 +34,7 @@ namespace AtomicNomad.game
             Console.WriteLine("");
             string input = Console.ReadLine().ToLower();
             Console.WriteLine("");
-
+            
             Keywords.TryGetValue(input, out string value);
             if (value != null)
             {

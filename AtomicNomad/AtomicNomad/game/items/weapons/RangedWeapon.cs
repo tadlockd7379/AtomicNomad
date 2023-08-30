@@ -14,7 +14,7 @@ namespace AtomicNomad.game.items.weapons
 
         public override void Attack()
         {
-            Item projectile = Game.Items.Miscellaneous[ProjectileID];
+            GameObject projectile = Game.Items.Miscellaneous[ProjectileID];
             // make sure the player has it
 
             int damage = Game.RNG.RandomIntBetween(Damage[0], Damage[1]);
