@@ -35,11 +35,6 @@ namespace AtomicNomad.game.items
             }
         }
 
-        public GameObject this[string id] => Index(id);
-
-        private GameObject Index(string id)
-        {
-            return AllItems[id];
-        }
+        public GameObject this[string id] => AllItems[id];
     }
 }
