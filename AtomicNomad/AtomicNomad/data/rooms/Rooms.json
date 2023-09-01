@@ -1,0 +1,40 @@
+{
+  [
+    {
+      "RoomID": 1,
+      "RoomName": "Barracks",
+      "RoomDescription": "You find yourself alone in an empty room with no memory of what has happened ",
+      "Items": [],
+      "Enemies": []
+    },
+    {
+      "RoomID": 2,
+      "RoomName": "Hallway",
+      "RoomDescription": "An empty hallway. This makes you wonder if everyone was evacuated and just forgot about you.",
+      "Items": [],
+      "Enemies": []
+    },
+    {
+      "RoomID": 3,
+      "RoomName": "Cafeteria",
+      "RoomDescription": "This room smells like slowly rotting food. You see remnants of partially eaten food. You spot a few items, but still, you find yourself alone. You hear some muffled noises in the distance, possibly coming from outside. You see a door leading outside and another leading down another hallway.",
+      "Items": [],
+      "Enemies": []
+    },
+    {
+      "RoomID": 4,
+      "RoomName": "Courtyard",
+      "RoomDescription": "As you exit the cafeteria, you enter into the courtyard. There are several exits that have been blocked off. The noise you heard is now amplified. The only way out of the courtyard is the way you came in. But, something doesn't feel right...",
+      "Items": [],
+      "Enemies": []
+    },
+    {
+      "RoomID": 5,
+      "RoomName": "Hallway2",
+      "RoomDescription": " As you look down the hallway, you notice, none of the lights are working. A few small emergency lights are lit and don’t have enough power to emit an abundance of light, keeping the hallway extremely dim. You see bright lights emitting from under the door of the hallway's exit.",
+      "Items": [ "Scroll of Fireball" ],
+      "Enemies": [ "Skeleton", "Necromancer" ]
+    }
+  ]
+
+}

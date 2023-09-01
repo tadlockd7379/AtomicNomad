@@ -1,0 +1,16 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "34902db9-0522-4b33-9802-2b6412862901": {
+      "ProjectGuid": "34902db9-0522-4b33-9802-2b6412862901",
+      "DisplayName": "AtomicNomad",
+      "ColorIndex": 0
+    },
+    "c5020d45-4494-4ab6-90c5-7b4ae3dabf44": {
+      "ProjectGuid": "c5020d45-4494-4ab6-90c5-7b4ae3dabf44",
+      "DisplayName": "NomadLibrary",
+      "ColorIndex": 1
+    }
+  },
+  "NextColorIndex": 2
+}
