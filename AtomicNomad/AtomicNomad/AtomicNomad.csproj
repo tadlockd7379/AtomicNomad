@@ -46,11 +46,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="data\rooms\GameMapReference.cs" />
     <Compile Include="game\Game.cs" />
     <Compile Include="game\GameObject.cs" />
     <Compile Include="game\items\Items.cs" />
     <Compile Include="game\items\potions\HealingPotion.cs" />
     <Compile Include="game\items\potions\Potion.cs" />
+    <Compile Include="game\items\RoomData.cs" />
     <Compile Include="game\items\weapons\Weapon.cs" />
     <Compile Include="game\items\weapons\RangedWeapon.cs" />
     <Compile Include="Program.cs" />
@@ -70,6 +72,9 @@
     </None>
     <None Include="data\items\weapons\ranged-weapons.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="data\rooms\Rooms.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
     <None Include="packages.config" />
   </ItemGroup>
