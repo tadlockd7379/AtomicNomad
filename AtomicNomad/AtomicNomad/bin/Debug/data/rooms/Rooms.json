@@ -32,7 +32,7 @@
     "RoomName": "Hallway2",
     "RoomDescription": " As you look down the hallway, you notice, none of the lights are working. A few small emergency lights are lit and don’t have enough power to emit an abundance of light, keeping the hallway extremely dim. You see bright lights emitting from under the door of the hallway's exit. Down the hallway, \n\nThere is a room to the north and to the south with the building exit to the far east.",
     "Items": [ "Scroll of Fireball" ],
-    "Enemies": [ "Skeleton", "Necromancer" ]
+    "Enemies": [ "Skeleton", "necromancer" ]
   },
   "classroom1": {
     "RoomID": 6,

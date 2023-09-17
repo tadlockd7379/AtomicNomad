@@ -46,7 +46,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="data\mobs\MOBs.cs" />
     <Compile Include="data\rooms\GameMapReference.cs" />
+    <Compile Include="data\rooms\Rooms.cs" />
     <Compile Include="game\Game.cs" />
     <Compile Include="game\GameObject.cs" />
     <Compile Include="game\items\Items.cs" />

@@ -1,7 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using AtomicNomad.game;
 using AtomicNomad.game.items;
 using NomadLibrary;
+using System;
+using System.Collections.Generic;
 using Newtonsoft.Json;
 using System.IO;
 
@@ -12,13 +13,18 @@ namespace AtomicNomad.game
         public static RNG RNG = new RNG();
         public static Items Items = new Items();
         public static Dictionary<string, string> Keywords = new Dictionary<string, string>();
-        public static Dictionary<string, Room> RoomsData = new Dictionary<string, Room>();
+
+        public Rooms RoomManager { get; private set; }
+        public MOBs MobManager { get; private set; } // Add this property
 
         public Game()
         {
             Console.WriteLine("Welcome to AtomicNomad!\n");
 
-            LoadRooms(@"..\..\data\rooms\Rooms.json");
+            // Create an instance of the Rooms class and assign it to RoomManager
+            RoomManager = new Rooms();
+
+            MobManager = new MOBs(); // Create an instance of MOBs
 
             RegisterKeywords();
 
@@ -33,8 +39,7 @@ namespace AtomicNomad.game
         void Input()
         {
             Console.WriteLine("Enter a command:");
-            string input = Console.ReadLine().Trim().ToLower(); // Trim and convert to lowercase
-            Console.WriteLine("");
+            string input = Console.ReadLine().Trim().ToLower();
 
             if (Keywords.TryGetValue(input, out string value))
             {
@@ -42,16 +47,24 @@ namespace AtomicNomad.game
             }
             else if (input == "rooms")
             {
-                ListRoomNames();
+                RoomManager.ListRoomNames();
             }
-            else if (RoomsData.ContainsKey(input))
+            else if (input == "mobs")
             {
-                // If the user entered a valid room name, display room data
-                DisplayRoomData(input);
+                
+                MobManager.ListMobs(); 
+            }
+            else if (MobManager.MobsData.ContainsKey(input))
+            {
+                MobManager.DisplayMobData(input); // Display mob data for a specific mob
+            }
+            else if (RoomManager.RoomsData.ContainsKey(input))
+            {
+                RoomManager.DisplayRoomData(input);
             }
             else
             {
-                Console.WriteLine($"Unknown input '{input}'. Try 'items', 'rooms', or a valid room name.");
+                Console.WriteLine($"Unknown input '{input}'. Try 'items', 'rooms', 'mobs', or a valid room/mob name.");
             }
 
             Input();
@@ -74,68 +87,20 @@ namespace AtomicNomad.game
             Keywords.Add("misc", string.Join(", ", Items.Miscellaneous.Keys));
             foreach (var data in Items.Miscellaneous) Keywords.Add(data.Key, $"{data.Value.ID} is the {data.Value.Description}");
 
-            Keywords.Add("rooms", "List of available rooms:\n" + GetRoomList());
+            Keywords.Add("rooms", "List of available rooms:\n" + RoomManager.GetRoomList());
+
+
+
+
+
+
+
+
 
             Console.WriteLine($"Registered {Keywords.Count} total keywords.\n");
         }
 
-        string GetRoomList()
-        {
-            List<string> roomNames = new List<string>(RoomsData.Keys);
-            return string.Join(", ", roomNames);
-        }
 
-        void LoadRooms(string jsonFilePath)
-        {
-            try
-            {
-                string jsonContent = File.ReadAllText(jsonFilePath);
-                RoomsData = JsonConvert.DeserializeObject<Dictionary<string, Room>>(jsonContent);
-            }
-            catch (Exception ex)
-            {
-                Console.WriteLine("Error loading rooms data: " + ex.Message);
-            }
-        }
-        void ListRoomNames()
-        {
-            Console.WriteLine("List of available rooms:");
-            foreach (var roomName in RoomsData.Keys)
-            {
-                Console.WriteLine(roomName);
-            }
-        }
 
-        void DisplayRoomData(string roomName)
-        {
-            if (RoomsData.TryGetValue(roomName, out Room room))
-            {
-                Console.WriteLine($"Room Name: {room.RoomName}");
-                Console.WriteLine($"Room Description: {room.RoomDescription}");
-                Console.WriteLine("Items in the Room:");
-                foreach (var item in room.Items)
-                {
-                    Console.WriteLine(item);
-                }
-                Console.WriteLine("Enemies in the Room:");
-                foreach (var enemy in room.Enemies)
-                {
-                    Console.WriteLine(enemy);
-                }
-            }
-            else
-            {
-                Console.WriteLine($"Room '{roomName}' not found.");
-            }
-        }
-    
-        public class Room
-        {
-            public int RoomID { get; set; }
-            public string RoomName { get; set; }
-            public string RoomDescription { get; set; }
-            public List<string> Items { get; set; }
-            public List<string> Enemies { get; set; }
-        }
     }
 }
