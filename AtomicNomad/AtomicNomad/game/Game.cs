@@ -1,4 +1,16 @@
-﻿using AtomicNomad.game;
+﻿/**
+* 9/17/2023
+* CSC 253
+* Group 1
+* Group Members:Daniel Parks, Drew Tadlock
+* Mud Game for CSC 253. DUNGON CRAWLER MEETS ATOMIC DISASTER
+* 
+* Moduel 1
+* 
+* 
+*/
+
+using AtomicNomad.game;
 using AtomicNomad.game.items;
 using NomadLibrary;
 using System;
@@ -15,16 +27,16 @@ namespace AtomicNomad.game
         public static Dictionary<string, string> Keywords = new Dictionary<string, string>();
 
         public Rooms RoomManager { get; private set; }
-        public MOBs MobManager { get; private set; } // Add this property
+        public MOBs MobManager { get; private set; }
 
         public Game()
         {
             Console.WriteLine("Welcome to AtomicNomad!\n");
 
-            // Create an instance of the Rooms class and assign it to RoomManager
+
             RoomManager = new Rooms();
 
-            MobManager = new MOBs(); // Create an instance of MOBs
+            MobManager = new MOBs(); 
 
             RegisterKeywords();
 
@@ -56,7 +68,7 @@ namespace AtomicNomad.game
             }
             else if (MobManager.MobsData.ContainsKey(input))
             {
-                MobManager.DisplayMobData(input); // Display mob data for a specific mob
+                MobManager.DisplayMobData(input); 
             }
             else if (RoomManager.RoomsData.ContainsKey(input))
             {

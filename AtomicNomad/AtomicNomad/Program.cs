@@ -1,9 +1,11 @@
 ﻿/**
-* 8/25/2023
+* 9/17/2023
 * CSC 253
 * Group 1
-* Group Members: David Jones, Daniel Parks, Drew Tadlock
+* Group Members:Daniel Parks, Drew Tadlock
 * Mud Game for CSC 253. DUNGON CRAWLER MEETS ATOMIC DISASTER
+* 
+* Moduel 1
 * 
 * 
 */
