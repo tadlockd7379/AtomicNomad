@@ -1,10 +1,22 @@
 ﻿{
   "sword": {
     "description": "simple melee weapon",
-    "damage": [ 1, 5 ]
+    "damage": [ 3, 9 ]
   },
   "legendary sword": {
     "description": "extremely powerful melee weapon",
     "damage": [ 7, 18 ]
+  },
+  "dagger": {
+    "description": "used for close combat. melee weapon",
+    "damage": [ 1, 5 ]
+  },
+  "Knife": {
+    "description": "quick reflex melee weapon",
+    "damage": [ 1, 2 ]
+  },
+  "wooden bat": {
+    "description": "blunt melee weapon",
+    "damage": [ 1, 3 ]
   }
 }
