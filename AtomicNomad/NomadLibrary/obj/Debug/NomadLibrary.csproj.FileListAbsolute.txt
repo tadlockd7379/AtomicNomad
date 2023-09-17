@@ -25,3 +25,12 @@ C:\Users\adamp\Desktop\AtomicNomad\AtomicNomad\NomadLibrary\obj\Debug\NomadLibra
 C:\Users\adamp\Desktop\AtomicNomad\AtomicNomad\NomadLibrary\obj\Debug\NomadLibrary.csproj.CopyComplete
 C:\Users\adamp\Desktop\AtomicNomad\AtomicNomad\NomadLibrary\obj\Debug\NomadLibrary.dll
 C:\Users\adamp\Desktop\AtomicNomad\AtomicNomad\NomadLibrary\obj\Debug\NomadLibrary.pdb
+C:\Users\adamp\Desktop\tadlockd7379\AtomicNomad\AtomicNomad\NomadLibrary\bin\Debug\NomadLibrary.dll
+C:\Users\adamp\Desktop\tadlockd7379\AtomicNomad\AtomicNomad\NomadLibrary\bin\Debug\NomadLibrary.pdb
+C:\Users\adamp\Desktop\tadlockd7379\AtomicNomad\AtomicNomad\NomadLibrary\bin\Debug\Newtonsoft.Json.dll
+C:\Users\adamp\Desktop\tadlockd7379\AtomicNomad\AtomicNomad\NomadLibrary\bin\Debug\Newtonsoft.Json.xml
+C:\Users\adamp\Desktop\tadlockd7379\AtomicNomad\AtomicNomad\NomadLibrary\obj\Debug\NomadLibrary.csproj.AssemblyReference.cache
+C:\Users\adamp\Desktop\tadlockd7379\AtomicNomad\AtomicNomad\NomadLibrary\obj\Debug\NomadLibrary.csproj.CoreCompileInputs.cache
+C:\Users\adamp\Desktop\tadlockd7379\AtomicNomad\AtomicNomad\NomadLibrary\obj\Debug\NomadLibrary.csproj.CopyComplete
+C:\Users\adamp\Desktop\tadlockd7379\AtomicNomad\AtomicNomad\NomadLibrary\obj\Debug\NomadLibrary.dll
+C:\Users\adamp\Desktop\tadlockd7379\AtomicNomad\AtomicNomad\NomadLibrary\obj\Debug\NomadLibrary.pdb

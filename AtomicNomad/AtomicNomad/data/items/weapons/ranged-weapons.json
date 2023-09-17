@@ -20,13 +20,13 @@
   "sling-shot": {
     "description": "basic projectile weapon. it requires pebbles to work",
     "damage": [ 1, 5 ],
-    "projectile": "pebble"
+    "projectile": "pebble",
     "accuracy": [ 3, 5]
   },
   "throwing star": {
     "description": "extreemly acurate, low damage. exhaustable item",
     "damage": [ 1, 5 ],
-    "projectile": "throwing star"
+    "projectile": "throwing star",
     "accuracy": [ 7, 9 ]
   }
 }

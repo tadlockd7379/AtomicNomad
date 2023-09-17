@@ -1,17 +1,32 @@
 ﻿{
   "bow": {
     "description": "simple bow. it requires an arrow to work",
-    "damage": [ 1, 5 ],
-    "projectile": "arrow"
+    "damage": [ 4, 8 ],
+    "projectile": "arrow",
+    "accuracy": [ 4, 8 ]
   },
   "crossbow": {
     "description": "stronger bow. it requires an arrow to work",
-    "damage": [ 3, 9 ],
-    "projectile": "arrow"
+    "damage": [ 7, 12 ],
+    "projectile": "arrow",
+    "accuracy": [ 6, 8 ]
   },
   "pistol": {
     "description": "extremely rare and powerful firearm. it requires a bullet to work",
-    "damage": [ 10, 25 ],
-    "projectile": "bullet"
+    "damage": [ 13, 20 ],
+    "projectile": "bullet",
+    "accuracy": [ 8, 10 ]
+  },
+  "sling-shot": {
+    "description": "basic projectile weapon. it requires pebbles to work",
+    "damage": [ 1, 5 ],
+    "projectile": "pebble",
+    "accuracy": [ 3, 5]
+  },
+  "throwing star": {
+    "description": "extreemly acurate, low damage. exhaustable item",
+    "damage": [ 1, 5 ],
+    "projectile": "throwing star",
+    "accuracy": [ 7, 9 ]
   }
 }
