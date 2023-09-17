@@ -14,11 +14,10 @@ namespace AtomicNomad.data.rooms
 
 
 
-
                         | office bathroom |
                                  ^                             
                                  |
-                             | office |
+                        | employee room |
                                  ^                             
                                  |
     |freezer | <--------> | Gas station |   <------->   | parking lot |
@@ -53,9 +52,6 @@ namespace AtomicNomad.data.rooms
 { "  ", "  ", "  ", "  ", "  ", "  ", "06", "09", "  ", "  ", "  ", "  ", "  ", "  " };
 { "  ", "  ", "01", "02", "03", "04", "05", "08", "  ", "  ", "  ", "  ", "  ", "  " };
 { "  ", "  ", "  ", "  ", "  ", "  ", "07", "  ", "  ", "  ", "  ", "  ", "  ", "  " };
-
-
-
 
 
 
