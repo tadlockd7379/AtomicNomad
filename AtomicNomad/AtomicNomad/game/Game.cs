@@ -18,7 +18,7 @@ namespace AtomicNomad.game
         {
             Console.WriteLine("Welcome to AtomicNomad!\n");
 
-            LoadRooms(@"C:\Users\adamp\Desktop\AtomicNomad\AtomicNomad\AtomicNomad\data\rooms\Rooms.json");
+            LoadRooms(@"..\..\data\rooms\Rooms.json");
 
             RegisterKeywords();
 
