@@ -9,217 +9,217 @@
   "bldg1 hallway1": {
     "RoomID": 2,
     "RoomName": "Hallway",
-    "RoomDescription": "",
+    "RoomDescription": "hallway. Go West to go back. Go East to move forward",
     "Items": [],
     "Enemies": []
   },
   "cafeteria": {
     "RoomID": 3,
     "RoomName": "Cafeteria",
-    "RoomDescription": "",
+    "RoomDescription": "Go West to go back. Go East to move forward.",
     "Items": [],
     "Enemies": []
   },
   "courtyard": {
     "RoomID": 4,
     "RoomName": "Courtyard",
-    "RoomDescription": "",
+    "RoomDescription": " Go West to go back. Go East to move forward.",
     "Items": [],
     "Enemies": []
   },
   "bldg1 hallway2": {
     "RoomID": 5,
     "RoomName": "Hallway2",
-    "RoomDescription": "",
+    "RoomDescription": "You find yourself in another hallway. Go West to go back. Go East to move forward. \nThere is also a classroom to the North and another one to the South.",
     "Items": [ "Scroll of Fireball" ],
     "Enemies": [ "Skeleton", "necromancer" ]
   },
   "bldg1 classroom1": {
     "RoomID": 6,
     "RoomName": "bldg1 classroom1",
-    "RoomDescription": "",
+    "RoomDescription": "There is no other exit. Go South to return to the hallway.",
     "Items": [ "" ],
     "Enemies": [ "" ]
   },
   "bldg1 classroom2": {
     "RoomID": 7,
     "RoomName": "bldg1 classroom2",
-    "RoomDescription": "",
+    "RoomDescription": "There is no other exit. Go North to return to the hallway.",
     "Items": [],
     "Enemies": []
   },
   "bldg1 hallway3": {
     "RoomID": 8,
     "RoomName": "bldg1 hallway3",
-    "RoomDescription": "",
+    "RoomDescription": "The hallway continues. You think you can see the exit. \n\nGo West to go back. Go East to continue on.",
     "Items": [ "" ],
     "Enemies": [ "" ]
   },
   "bldg1 exit": {
     "RoomID": 9,
     "RoomName": "bldg1 exit",
-    "RoomDescription": "",
+    "RoomDescription": "You found the exit to bldg1. \n\nGo North to continue. Go West to go back.",
     "Items": [ "" ],
     "Enemies": [ "" ]
   },
   "breezway": {
     "RoomID": 10,
     "RoomName": "breezway",
-    "RoomDescription": "",
+    "RoomDescription": "You find yourself in the breezway. Go North to continue on. Go South to enter Building 1.",
     "Items": [ "" ],
     "Enemies": [ "" ]
   },
   "plavilion": {
     "RoomID": 11,
     "RoomName": "plavilion",
-    "RoomDescription": "",
+    "RoomDescription": "You are in the plavilian outsid bldg2. \n\nGo Nort to continue inside. Go South to go to the breezway.",
     "Items": [ "" ],
     "Enemies": [ "" ]
   },
   "bldg2 enterance": {
     "RoomID": 12,
     "RoomName": "bldg2 enterance",
-    "RoomDescription": "",
+    "RoomDescription": "You are in the bldg 2 enterance. \n\nGo North to go into the Hallway. Go South to return ouside.",
     "Items": [ "" ],
     "Enemies": [ "" ]
   },
   "bldg2 hallway 1": {
     "RoomID": 13,
     "RoomName": "bldg2 hallway 1",
-    "RoomDescription": "",
+    "RoomDescription": "You are at the begining of the hallway. \n\nGo North to enter into an office. Go south to go to the building's enterance. Go west to continue down the hallway.'",
     "Items": [ "" ],
     "Enemies": [ "" ]
   },
   "bldg2 office": {
     "RoomID": 14,
     "RoomName": "bldg2 office",
-    "RoomDescription": "",
+    "RoomDescription": "This is the building administrator's office. \n\n'Go South to enter back into the hallway.",
     "Items": [ "" ],
     "Enemies": [ "" ]
   },
   "bldg2 hallway 2": {
     "RoomID": 15,
     "RoomName": "bldg2 hallway 2",
-    "RoomDescription": "",
+    "RoomDescription": "You find yourself looking down a very long hallway. Head West or head East. ",
     "Items": [ "" ],
     "Enemies": [ "" ]
   },
   "bldg2 Hallway 3": {
     "RoomID": 16,
     "RoomName": "bldg2 Hallway 3",
-    "RoomDescription": "",
+    "RoomDescription": "You continue down the hallway. \n\nHead West or head East. There is also a classroom to the North and to the South.",
     "Items": [ "" ],
     "Enemies": [ "" ]
   },
   "bldg2 classroom1": {
     "RoomID": 17,
     "RoomName": "bldg2 classroom1",
-    "RoomDescription": "",
+    "RoomDescription": "You peer into the classroom. There is no other exit. Go back North to contine.",
     "Items": [ "" ],
     "Enemies": [ "" ]
   },
   "bldg2 classroom2": {
     "RoomID": 18,
     "RoomName": "bldg2 classroom2",
-    "RoomDescription": "",
+    "RoomDescription": "You peer into the classroom. There is no other exit. Go back South to contine.",
     "Items": [ "" ],
     "Enemies": [ "" ]
   },
   "bldg2 hallway 4": {
     "RoomID": 19,
     "RoomName": "bldg2 hallway 4",
-    "RoomDescription": "",
+    "RoomDescription": "You continue down the long hallway. Continue by going either West or East.",
     "Items": [ "" ],
     "Enemies": [ "" ]
   },
   "bldg2 Hallway 5": {
     "RoomID": 20,
     "RoomName": "bldg2 Hallway 5",
-    "RoomDescription": "",
+    "RoomDescription": "The hallway continues. \n\nThere is a classroom to the North and to the South. Continue down the hallway by going West or East.",
     "Items": [ "" ],
     "Enemies": [ "" ]
   },
   "bldg2 classroom3": {
     "RoomID": 21,
     "RoomName": "bldg2 classroom3",
-    "RoomDescription": "",
+    "RoomDescription": "You peer into the classroom. There is no other exit. Go back North to contine.",
     "Items": [ "" ],
     "Enemies": [ "" ]
   },
   "bldg2 classroom4": {
     "RoomID": 22,
     "RoomName": "bldg2 classroom4",
-    "RoomDescription": "",
+    "RoomDescription": "You peer into the classroom. There is no other exit. Go back South to contine.",
     "Items": [ "" ],
     "Enemies": [ "" ]
   },
   "bldg2 Hallway 6": {
     "RoomID": 23,
     "RoomName": "bldg2 Hallway 6",
-    "RoomDescription": "",
+    "RoomDescription": "You find yourelf at the end of the long hallway in bldg2. \n\nExit the building by going West. Go down the hallway by going East.",
     "Items": [ "" ],
     "Enemies": [ "" ]
   },
   "bldg2 Exit": {
     "RoomID": 24,
     "RoomName": "bldg2 Exit",
-    "RoomDescription": "",
+    "RoomDescription": "You are standing in the Entrance/Exit of bldg2. \n\nThe Bathroom is to the South. He hallway to the East. The courtyard to the North.",
     "Items": [ "" ],
     "Enemies": [ "" ]
   },
   "bldg2 bathroom": {
     "RoomID": 25,
     "RoomName": "bldg2 bathroom",
-    "RoomDescription": "",
+    "RoomDescription": "There are no other exits. \n\nGo North to continue on.",
     "Items": [ "" ],
     "Enemies": [ "" ]
   },
   "bldg2 courtyard": {
     "RoomID": 26,
     "RoomName": "bldg2 courtyard",
-    "RoomDescription": "",
+    "RoomDescription": "You are standing in the Courtyard outside of bldg2. \n\nGo South to head into bldg2. Go West to go to the bldg2 pergola.",
     "Items": [ "" ],
     "Enemies": [ "" ]
   },
   "bldg2 pergola": {
     "RoomID": 27,
     "RoomName": "bldg2 pergola",
-    "RoomDescription": "",
+    "RoomDescription": "Under the pergola outside of bldg2, you see the bldg2 courtyard and a parking lot. \n\nGo East to head back to the courtyard. Head North to make your way to the parking lot.",
     "Items": [],
     "Enemies": []
   },
   "parking lot": {
     "RoomID": 28,
     "RoomName": "parking lot",
-    "RoomDescription": "",
+    "RoomDescription": "Standing in the parkinglot, you see a Gas station to the West. You can also go to the bldg2 pergola.",
     "Items": [],
     "Enemies": []
   },
   "gas station": {
     "RoomID": 29,
     "RoomName": "gas station",
-    "RoomDescription": "",
+    "RoomDescription": "Standing in the gas station, you see the freezer to the West and the Employee Room to the North",
     "Items": [],
     "Enemies": []
   },
   "freezer2": {
     "RoomID": 30,
     "RoomName": "freezer",
-    "RoomDescription": "",
+    "RoomDescription": "Inside the Freezing freezer, there are no further exits. \n\nHead back to the main floor by going East.",
     "Items": [],
     "Enemies": []
   },
   "employee room": {
     "RoomID": 31,
     "RoomName": "employee room",
-    "RoomDescription": "",
+    "RoomDescription": "From the Gas station employee room, you can \n\nMove South to go back to the main floor or North to check out the bathroom.",
     "Items": [],
     "Enemies": []
   },
   "office bathroom": {
     "RoomID": 32,
     "RoomName": "office bathroom",
-    "RoomDescription": "",
+    "RoomDescription": "There are no more rooms. Head out of the bathroom by going back to the employee room by going South.",
     "Items": [],
     "Enemies": []
   }
