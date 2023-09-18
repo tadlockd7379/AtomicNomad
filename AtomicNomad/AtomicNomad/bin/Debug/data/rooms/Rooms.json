@@ -2,189 +2,224 @@
   "barracks": {
     "RoomID": 1,
     "RoomName": "Barracks",
-    "RoomDescription": "You find yourself alone in an empty room with no memory of what has happened. Move east to go to the next room.",
+    "RoomDescription": "",
     "Items": [],
     "Enemies": []
   },
-  "hallway": {
+  "bldg1 hallway1": {
     "RoomID": 2,
     "RoomName": "Hallway",
-    "RoomDescription": "An empty hallway. This makes you wonder if everyone was evacuated and just forgot about you. \n\nMove east to go to the next room or west to go back.",
+    "RoomDescription": "",
     "Items": [],
     "Enemies": []
   },
   "cafeteria": {
     "RoomID": 3,
     "RoomName": "Cafeteria",
-    "RoomDescription": "This room smells like slowly rotting food. You see remnants of partially eaten food. You spot a few items, but still, you find yourself alone. \nYou hear some muffled noises in the distance, possibly coming from outside. You see a door leading outside and another leading down another hallway. \n\nMove east to go to the next room or west to go back.",
+    "RoomDescription": "",
     "Items": [],
     "Enemies": []
   },
   "courtyard": {
     "RoomID": 4,
     "RoomName": "Courtyard",
-    "RoomDescription": "As you exit the cafeteria, you enter into the courtyard. There are several exits that have been blocked off. The noise you heard is now amplified. The only way out of the courtyard is the way you came in. But, something doesn't feel right...\n\nMove east to go to the next room or east to go back.",
-    "Items": [],
-    "Enemies": []
-  },
-  "hallway2": {
-    "RoomID": 5,
-    "RoomName": "Hallway2",
-    "RoomDescription": " As you look down the hallway, you notice, none of the lights are working. A few small emergency lights are lit and don’t have enough power to emit an abundance of light, keeping the hallway extremely dim. You see bright lights emitting from under the door of the hallway's exit. Down the hallway, \n\nThere is a room to the north and to the south with the building exit to the far east.",
-    "Items": [ "Scroll of Fireball" ],
-    "Enemies": [ "Skeleton", "necromancer" ]
-  },
-  "classroom1": {
-    "RoomID": 6,
-    "RoomName": "Classroom1",
-    "RoomDescription": "This is a classroom with no exits other than where you came. \n\nGo south to go back.",
-    "Items": [ "" ],
-    "Enemies": [ "" ]
-  },
-  "classroom2": {
-    "RoomID": 7,
-    "RoomName": "classroom2",
-    "RoomDescription": "This is a classroom with no exits other than where you came. \n\nGo north to go back.",
-    "Items": [],
-    "Enemies": []
-  },
-  "bldg1 exit": {
-    "RoomID": 8,
-    "RoomName": "bldg1 exit",
-    "RoomDescription": "Exit the building. There is a thick fog outside, preventing you from seeing more than the your immediate suroundings. \n\n Move east to continue. Move west to go back.",
-    "Items": [ "" ],
-    "Enemies": [ "" ]
-  },
-  "breezway": {
-    "RoomID": 9,
-    "RoomName": "breezway",
-    "RoomDescription": "You find yourself in the breezway between 2 buildings.\n\n Go north to enter the new building. Go south to return to the previous building.",
-    "Items": [ "" ],
-    "Enemies": [ "" ]
-  },
-  "bldg2 enterance": {
-    "RoomID": 10,
-    "RoomName": "bldg2 enterance",
-    "RoomDescription": "You enter the second building and find yourself in a small enterance with a few pictures on the wall. \n\n Go noth to continue to the main hallway. Go south to go back.",
-    "Items": [ "" ],
-    "Enemies": [ "" ]
-  },
-  "bldg2 hallway": {
-    "RoomID": 11,
-    "RoomName": "bldg2 hallway",
-    "RoomDescription": "You find yourself at the begining of a long hallway. \n\nTo your north seems to be an office. The hallway continues to the west. Go south to go back.",
-    "Items": [ "" ],
-    "Enemies": [ "" ]
-  },
-  "room 2010": {
-    "RoomID": 12,
-    "RoomName": "room 2010",
-    "RoomDescription": "You find yourself in what seems to be a classroom. There are no exits in the room.\n\nGo north to return to the hallway.",
-    "Items": [ "" ],
-    "Enemies": [ "" ]
-  },
-  "room 2011": {
-    "RoomID": 13,
-    "RoomName": "room 2011",
-    "RoomDescription": "You find yourself in what seems to be a classroom. There are no exits in the room.\n\nGo south to return to the hallway.",
-    "Items": [ "" ],
-    "Enemies": [ "" ]
-  },
-  "room 2012": {
-    "RoomID": 14,
-    "RoomName": "room 2012",
-    "RoomDescription": "You find yourself in what seems to be a classroom. There are no exits in the room.\n\nGo north to return to the hallway.",
-    "Items": [ "" ],
-    "Enemies": [ "" ]
-  },
-  "room 2013": {
-    "RoomID": 15,
-    "RoomName": "room 2013",
-    "RoomDescription": "You find yourself in what seems to be a classroom. There are no exits in the room.\n\nGo south to return to the hallway.",
-    "Items": [ "" ],
-    "Enemies": [ "" ]
-  },
-  "bldg2 exit": {
-    "RoomID": 17,
-    "RoomName": "exit",
-    "RoomDescription": "The fog out side is still very thick. \n\nContinue forward by going into the bathroom to the south or exit the building to the north. go east to go back.",
-    "Items": [ "" ],
-    "Enemies": [ "" ]
-  },
-  "bldg2 bathroom": {
-    "RoomID": 18,
-    "RoomName": "bathroom",
-    "RoomDescription": "There is no exit in this room. Go north to return to the building exit.",
-    "Items": [ "" ],
-    "Enemies": [ "" ]
-  },
-  "bldg2 courtyard": {
-    "RoomID": 19,
-    "RoomName": "bldg2 courtyard",
-    "RoomDescription": "You find yourself in what seems to be a courtyard with attached parking lot and pergola covering a section of the courtyard. \n\nMove forward to the pergola by going east. go back inside by going south.",
-    "Items": [ "" ],
-    "Enemies": [ "" ]
-  },
-  "bldg2 pergola": {
-    "RoomID": 20,
-    "RoomName": "bldg2 pergola",
-    "RoomDescription": "The pergola you find yourself under has a few benches and edges up to the parkinglot. \n\nGo north to move into the parking lot. Go east to go back.",
-    "Items": [ "" ],
-    "Enemies": [ "" ]
-  },
-  "parking lot": {
-    "RoomID": 21,
-    "RoomName": "parking lot",
-    "RoomDescription": "On the eastern boarder of the parking lot, you see a gas station. Continure on to the gas station by going west. Head back by going south.",
-    "Items": [ "" ],
-    "Enemies": [ "" ]
-  },
-  "gass station": {
-    "RoomID": 22,
-    "RoomName": "gas station lobby",
-    "RoomDescription": "You enter into the gas station. \n\nYou notice the enterance to the store's freezer is to the west of you and the employee office to the north.'",
-    "Items": [ "" ],
-    "Enemies": [ "" ]
-  },
-  "employee room": {
-    "RoomID": 23,
-    "RoomName": "station office",
-    "RoomDescription": "This is the station office. Gas station employees use this as a breakroom. \n\nThere is a bathroom on the north side of the office. Go south to return to the station lobby.",
-    "Items": [ "" ],
-    "Enemies": [ "" ]
-  },
-  "station bathroom": {
-    "RoomID": 24,
-    "RoomName": "bathroom",
-    "RoomDescription": "The station only has an employee bathroom. There are no other exits than the way you came in. \n\nGo south to return",
-    "Items": [],
-    "Enemies": []
-  },
-  "freezer": {
-    "RoomID": 25,
-    "RoomName": "freezer",
-    "RoomDescription": "The freezer is where all the drinks and ice-cream the gas station has is kept. \n\nThere are no exits other than to go east and return into the lobby.",
-    "Items": [],
-    "Enemies": []
-  },
-  "extended hallway1": {
-    "RoomID": 27,
-    "RoomName": "extended hallway1",
-    "RoomDescription": "You find yourself stearing down a very long hallway. There are 2 doors relativly close to you. you can continue west to go down the hallway, Go north to enter into one classroom, south for the other. Go east to go back. .",
-    "Items": [],
-    "Enemies": []
-  },
-  "extended hallway2": {
-    "RoomID": 28,
-    "RoomName": "extended hallway2",
     "RoomDescription": "",
     "Items": [],
     "Enemies": []
   },
+  "bldg1 hallway2": {
+    "RoomID": 5,
+    "RoomName": "Hallway2",
+    "RoomDescription": "",
+    "Items": [ "Scroll of Fireball" ],
+    "Enemies": [ "Skeleton", "necromancer" ]
+  },
+  "bldg1 classroom1": {
+    "RoomID": 6,
+    "RoomName": "bldg1 classroom1",
+    "RoomDescription": "",
+    "Items": [ "" ],
+    "Enemies": [ "" ]
+  },
+  "bldg1 classroom2": {
+    "RoomID": 7,
+    "RoomName": "bldg1 classroom2",
+    "RoomDescription": "",
+    "Items": [],
+    "Enemies": []
+  },
+  "bldg1 hallway3": {
+    "RoomID": 8,
+    "RoomName": "bldg1 hallway3",
+    "RoomDescription": "",
+    "Items": [ "" ],
+    "Enemies": [ "" ]
+  },
+  "bldg1 exit": {
+    "RoomID": 9,
+    "RoomName": "bldg1 exit",
+    "RoomDescription": "",
+    "Items": [ "" ],
+    "Enemies": [ "" ]
+  },
+  "breezway": {
+    "RoomID": 10,
+    "RoomName": "breezway",
+    "RoomDescription": "",
+    "Items": [ "" ],
+    "Enemies": [ "" ]
+  },
+  "plavilion": {
+    "RoomID": 11,
+    "RoomName": "plavilion",
+    "RoomDescription": "",
+    "Items": [ "" ],
+    "Enemies": [ "" ]
+  },
+  "bldg2 enterance": {
+    "RoomID": 12,
+    "RoomName": "bldg2 enterance",
+    "RoomDescription": "",
+    "Items": [ "" ],
+    "Enemies": [ "" ]
+  },
+  "bldg2 hallway 1": {
+    "RoomID": 13,
+    "RoomName": "bldg2 hallway 1",
+    "RoomDescription": "",
+    "Items": [ "" ],
+    "Enemies": [ "" ]
+  },
   "bldg2 office": {
-    "RoomID": 26,
+    "RoomID": 14,
     "RoomName": "bldg2 office",
-    "RoomDescription": "There is no other exit to this room than from where you came. You seem to have stumbled into the building administrator's office. \n\nGo south to continue.'",
+    "RoomDescription": "",
+    "Items": [ "" ],
+    "Enemies": [ "" ]
+  },
+  "bldg2 hallway 2": {
+    "RoomID": 15,
+    "RoomName": "bldg2 hallway 2",
+    "RoomDescription": "",
+    "Items": [ "" ],
+    "Enemies": [ "" ]
+  },
+  "bldg2 Hallway 3": {
+    "RoomID": 16,
+    "RoomName": "bldg2 Hallway 3",
+    "RoomDescription": "",
+    "Items": [ "" ],
+    "Enemies": [ "" ]
+  },
+  "bldg2 classroom1": {
+    "RoomID": 17,
+    "RoomName": "bldg2 classroom1",
+    "RoomDescription": "",
+    "Items": [ "" ],
+    "Enemies": [ "" ]
+  },
+  "bldg2 classroom2": {
+    "RoomID": 18,
+    "RoomName": "bldg2 classroom2",
+    "RoomDescription": "",
+    "Items": [ "" ],
+    "Enemies": [ "" ]
+  },
+  "bldg2 hallway 4": {
+    "RoomID": 19,
+    "RoomName": "bldg2 hallway 4",
+    "RoomDescription": "",
+    "Items": [ "" ],
+    "Enemies": [ "" ]
+  },
+  "bldg2 Hallway 5": {
+    "RoomID": 20,
+    "RoomName": "bldg2 Hallway 5",
+    "RoomDescription": "",
+    "Items": [ "" ],
+    "Enemies": [ "" ]
+  },
+  "bldg2 classroom3": {
+    "RoomID": 21,
+    "RoomName": "bldg2 classroom3",
+    "RoomDescription": "",
+    "Items": [ "" ],
+    "Enemies": [ "" ]
+  },
+  "bldg2 classroom4": {
+    "RoomID": 22,
+    "RoomName": "bldg2 classroom4",
+    "RoomDescription": "",
+    "Items": [ "" ],
+    "Enemies": [ "" ]
+  },
+  "bldg2 Hallway 6": {
+    "RoomID": 23,
+    "RoomName": "bldg2 Hallway 6",
+    "RoomDescription": "",
+    "Items": [ "" ],
+    "Enemies": [ "" ]
+  },
+  "bldg2 Exit": {
+    "RoomID": 24,
+    "RoomName": "bldg2 Exit",
+    "RoomDescription": "",
+    "Items": [ "" ],
+    "Enemies": [ "" ]
+  },
+  "bldg2 bathroom": {
+    "RoomID": 25,
+    "RoomName": "bldg2 bathroom",
+    "RoomDescription": "",
+    "Items": [ "" ],
+    "Enemies": [ "" ]
+  },
+  "bldg2 courtyard": {
+    "RoomID": 26,
+    "RoomName": "bldg2 courtyard",
+    "RoomDescription": "",
+    "Items": [ "" ],
+    "Enemies": [ "" ]
+  },
+  "bldg2 pergola": {
+    "RoomID": 27,
+    "RoomName": "bldg2 pergola",
+    "RoomDescription": "",
+    "Items": [],
+    "Enemies": []
+  },
+  "parking lot": {
+    "RoomID": 28,
+    "RoomName": "parking lot",
+    "RoomDescription": "",
+    "Items": [],
+    "Enemies": []
+  },
+  "gas station": {
+    "RoomID": 29,
+    "RoomName": "gas station",
+    "RoomDescription": "",
+    "Items": [],
+    "Enemies": []
+  },
+  "freezer2": {
+    "RoomID": 30,
+    "RoomName": "freezer",
+    "RoomDescription": "",
+    "Items": [],
+    "Enemies": []
+  },
+  "employee room": {
+    "RoomID": 31,
+    "RoomName": "employee room",
+    "RoomDescription": "",
+    "Items": [],
+    "Enemies": []
+  },
+  "office bathroom": {
+    "RoomID": 32,
+    "RoomName": "office bathroom",
+    "RoomDescription": "",
     "Items": [],
     "Enemies": []
   }
