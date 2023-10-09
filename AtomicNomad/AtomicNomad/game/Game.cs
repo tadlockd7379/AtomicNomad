@@ -10,13 +10,10 @@
 * 
 */
 
-using AtomicNomad.game;
 using AtomicNomad.game.items;
 using NomadLibrary;
 using System;
 using System.Collections.Generic;
-using Newtonsoft.Json;
-using System.IO;
 
 namespace AtomicNomad.game
 {
@@ -25,6 +22,7 @@ namespace AtomicNomad.game
         public static RNG RNG = new RNG();
         public static Items Items = new Items();
         public static Dictionary<string, string> Keywords = new Dictionary<string, string>();
+        public static Player player;
 
         public Rooms RoomManager { get; private set; }
         public MOBs MobManager { get; private set; }
@@ -33,6 +31,8 @@ namespace AtomicNomad.game
         {
             Console.WriteLine("Welcome to AtomicNomad!\n");
 
+            player = new Player("player", 100, 2);
+            player.inventory = new GameObject[] { Items.Weapons["sword"] };
 
             RoomManager = new Rooms();
 
@@ -40,10 +40,8 @@ namespace AtomicNomad.game
 
             RegisterKeywords();
 
-            Items.Weapons["sword"].Attack();
-            Console.WriteLine(Items["arrow"].Description);
-
             Console.WriteLine("\ntemporary user input system... try 'items' or 'rooms'");
+            Console.WriteLine("or, type 'combat' for the combat demo.");
 
             Input();
         }
@@ -63,16 +61,21 @@ namespace AtomicNomad.game
             }
             else if (input == "mobs")
             {
-                
-                MobManager.ListMobs(); 
+
+                MobManager.ListMobs();
             }
             else if (MobManager.MobsData.ContainsKey(input))
             {
-                MobManager.DisplayMobData(input); 
+                MobManager.DisplayMobData(input);
             }
             else if (RoomManager.RoomsData.ContainsKey(input))
             {
                 RoomManager.DisplayRoomData(input);
+            }
+            else if (input == "combat")
+            {
+                Console.WriteLine("Automated combat demo...");
+                new Combat(new LivingEntity[] { MobManager.MobsData["rat"], MobManager.MobsData["spider"] });
             }
             else
             {
@@ -101,18 +104,7 @@ namespace AtomicNomad.game
 
             Keywords.Add("rooms", "List of available rooms:\n" + RoomManager.GetRoomList());
 
-
-
-
-
-
-
-
-
             Console.WriteLine($"Registered {Keywords.Count} total keywords.\n");
         }
-
-
-
     }
 }

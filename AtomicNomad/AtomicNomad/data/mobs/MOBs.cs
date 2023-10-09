@@ -20,7 +20,7 @@ namespace AtomicNomad.game
 {
     public class MOBs
     {
-        public Dictionary<string, Mob> MobsData { get; private set; }
+        public Dictionary<string, LivingEntity> MobsData { get; private set; }
 
         public MOBs()
         {
@@ -32,7 +32,7 @@ namespace AtomicNomad.game
             try
             {
                 string jsonContent = File.ReadAllText(jsonFilePath);
-                MobsData = JsonConvert.DeserializeObject<Dictionary<string, Mob>>(jsonContent);
+                MobsData = JsonConvert.DeserializeObject<Dictionary<string, LivingEntity>>(jsonContent);
             }
             catch (Exception ex)
             {
@@ -51,25 +51,17 @@ namespace AtomicNomad.game
 
         public void DisplayMobData(string mobName)
         {
-            if (MobsData.TryGetValue(mobName, out Mob mob))
+            if (MobsData.TryGetValue(mobName, out LivingEntity mob))
             {
-                Console.WriteLine($"Mob Name: {mob.Name}");
-                Console.WriteLine($"Health: {mob.Health}");
-                Console.WriteLine($"Attack: {mob.Attack}");
+                Console.WriteLine($"Mob Name: {mob.ID}");
+                Console.WriteLine($"Health: {mob.hp}");
+                Console.WriteLine($"Attack: {mob.attackPower}");
                 Console.WriteLine($"Description: {mob.Description}");
             }
             else
             {
                 Console.WriteLine($"Mob '{mobName}' not found.");
             }
-        }
-
-        public class Mob
-        {
-            public string Name { get; set; }
-            public int Health { get; set; }
-            public int Attack { get; set; }
-            public string Description { get; set; }
         }
     }
 }

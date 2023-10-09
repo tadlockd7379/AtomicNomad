@@ -1,4 +1,4 @@
-﻿namespace AtomicNomad.game.items
+﻿namespace AtomicNomad.game
 {
     public class GameObject
     {

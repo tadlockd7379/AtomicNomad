@@ -1,82 +1,82 @@
 ﻿{
   "spider": {
-    "CharacterID": 1,
-    "Description": "An abnormally large, venomous spider with bloodshot eyes. Fast and lethal but not accurate",
-    "Health": 5,
+    "ID": "Spider",
+    "description": "An abnormally large, venomous spider with bloodshot eyes. Fast and lethal but not accurate",
+    "hp": 5,
     "Accuracy": 5,
-    "Damage": 5,
+    "attackPower": 5,
     "Speed": 15
   },
   "rat": {
-    "CharacterID": 2,
-    "Description": "Previously uninterested in humans, since the incident, they have delveloped a taste for humans. Fast. Spitefull. Not too dangerous unless in a pack.",
-    "Health": 5,
+    "ID": "Rat",
+    "description": "Previously uninterested in humans, since the incident, they have delveloped a taste for humans. Fast. Spitefull. Not too dangerous unless in a pack.",
+    "hp": 5,
     "Accuracy": 5,
-    "Damage": 5,
+    "attackPower": 5,
     "Speed": 15
   },
   "raged bird": {
-    "CharacterID": 3,
-    "Description": "Not your average bird. Something is different about these birds. They aren't affraid of humans and will attack without notice.",
-    "Health": 5,
+    "ID": "Raged Bird",
+    "description": "Not your average bird. Something is different about these birds. They aren't affraid of humans and will attack without notice.",
+    "hp": 5,
     "Accuracy": 5,
-    "Damage": 5,
+    "attackPower": 5,
     "Speed": 15
   },
   "skeleton": {
-    "CharacterID": 4,
-    "Description": "This is what looks to be a human skeleton, but still alive. remnants of blood and flesh are still attached to some portions of their body. Slow. Powerful. Not Accurate. Dangerous.",
-    "Health": 5,
+    "ID": "Skeleton",
+    "description": "This is what looks to be a human skeleton, but still alive. remnants of blood and flesh are still attached to some portions of their body. Slow. Powerful. Not Accurate. Dangerous.",
+    "hp": 5,
     "Accuracy": 5,
-    "Damage": 5,
+    "attackPower": 5,
     "Speed": 15
   },
   "death walker": {
-    "CharacterID": 5,
-    "Description": "A fast, recently deceiced human. Still maintains their human characteristics as their body has not decayed yet. Fast, dangerous. Low stamina.",
-    "Health": 5,
+    "ID": "Death Walker",
+    "description": "A fast, recently deceiced human. Still maintains their human characteristics as their body has not decayed yet. Fast, dangerous. Low stamina.",
+    "hp": 5,
     "Accuracy": 5,
-    "Damage": 5,
+    "attackPower": 5,
     "Speed": 15
   },
   "necromancer": {
-    "CharacterID": 6,
-    "Description": "Not physically gifted, but will summon zombies, skeletons and death walkers or call birds or any animals from the local area to attack you.",
-    "Health": 5,
+    "ID": "Necromancer",
+    "description": "Not physically gifted, but will summon zombies, skeletons and death walkers or call birds or any animals from the local area to attack you.",
+    "hp": 5,
     "Accuracy": 5,
-    "Damage": 5,
+    "attackPower": 5,
     "Speed": 15
   },
   "black ops soldier": {
-    "CharacterID": 7,
-    "Description": "A fast and accurate soldier from some 'government' orgainization",
-    "Health": 5,
+    "ID": "Black Ops Soldier",
+    "description": "A fast and accurate soldier from some 'government' orgainization",
+    "hp": 5,
     "Accuracy": 5,
-    "Damage": 5,
+    "attackPower": 5,
     "Speed": 15
   },
   "small drone": {
-    "CharacterID": 8,
-    "Description": "A small arial drone. Fast. Limited ammunition. Not extremelly leathal.",
-    "Health": 5,
+    "ID": "Small Drone",
+    "description": "A small arial drone. Fast. Limited ammunition. Not extremelly leathal.",
+    "hp": 5,
     "Accuracy": 5,
-    "Damage": 5,
+    "attackPower": 5,
     "Speed": 15
   },
   "large drone": {
-    "CharacterID": 9,
-    "Description": "A large arial drone. Slow. Limited ammunition. Deadly. Not too acurate due to its speed, but will deal a lot of damage.",
-    "Health": 5,
+    "ID": "Large Drone",
+    "description": "A large arial drone. Slow. Limited ammunition. Deadly. Not too acurate due to its speed, but will deal a lot of attackPower.",
+    "hp": 5,
     "Accuracy": 5,
-    "Damage": 5,
+    "attackPower": 5,
     "Speed": 15
   },
   "stationary turrent": {
-    "CharacterID": 10,
-    "Description": "Fast repetative firing turrent. Not extreemly accurate. Used to ward off enemies.",
-    "Health": 5,
+    "ID": "Stationary Turret",
+    "description": "Fast repetative firing turrent. Not extreemly accurate. Used to ward off enemies.",
+    "hp": 5,
     "Accuracy": 5,
-    "Damage": 5,
+    "attackPower": 5,
     "Speed": 15
   }
 }
